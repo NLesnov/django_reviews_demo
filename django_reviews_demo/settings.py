@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 # Данные вебхука для публикации отзыва
 REVIEW_PUBLISH_HOST = 'https://webhook.site/'
-REVIEW_PUBLISH_KEY = 'b88c1d31-3fd0-4f64-a008-b2162a6f470d'
+REVIEW_PUBLISH_KEY = '36693e00-8f59-4f7b-9a85-1d1e7ddde4d4'
 
 # Application definition
 
