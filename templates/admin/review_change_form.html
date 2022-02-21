@@ -1,0 +1,12 @@
+{% extends 'admin/change_form.html' %}
+
+{% block submit_buttons_bottom %}
+    {% if original.pk %} {# Only show if changing #}
+        <div class="submit-row">
+            <a href="{% url 'publish-review' original.pk %}">
+                 <b><u>Опубликовать</u></b>
+            </a>
+        </div>
+    {% endif %}
+    {{ block.super }}
+{% endblock %}
